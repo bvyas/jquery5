@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>jquery5</title>
+	<script type="text/javascript"></script>
+	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<style type="text/css"></style>
+	<style>
+		#images{
+			width: 150px;
+			height: 150px;
+			display: inline;
+		}
+
+	</style>
+	<script>
+		$(document).ready(function(){
+			$('img').hover(function(){
+				$(this).fadeOut('slow');
+				$(this).fadeIn('slow');
+			})
+		})
+
+
+
+	</script>
+</head>
+<body>
+	<div id="images">
+			<img src="img1.jpg">
+			</div>
+			<img src="img2.jpg">
+			<img src="img3.jpg">
+			<img src="img4.jpg">
+		<img src="img5.jpg">
+	
+
+
+	
+
+</body>
+</html>
